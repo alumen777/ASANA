@@ -21,7 +21,7 @@ public class WorkRequestPage extends LoginPage {
     private Locator newKeycardDanielaVTrackTag = page.locator("//[role=columnheader]");
     public WorkRequestPage(Page page) {
         super(page);
-        basePage = new BasePage();
+       // basePage = new BasePage();
     }
     public boolean verifyLaptopSetupNewHireColumn(String columnName) {
         return basePage.verifyColumn(laptopSetupNewHireColumn, columnName);

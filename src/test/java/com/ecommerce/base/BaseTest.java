@@ -37,7 +37,7 @@ public class BaseTest {
         browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(50));
         context = browser.newContext();
         page = context.newPage();
-        page.navigate("https://app.asana.com/-/login");
+        page.navigate("https://animated-gingersnap-8cf7f2.netlify.app/");//https://app.asana.com/-/login
         page.setViewportSize(1920, 1080); // maximize window
 
         loginPage = new LoginPage(page);

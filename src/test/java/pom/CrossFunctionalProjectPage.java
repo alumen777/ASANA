@@ -22,7 +22,7 @@ public class CrossFunctionalProjectPage extends LoginPage {
 
     public CrossFunctionalProjectPage(Page page) {
         super(page);
-        basePage = new BasePage();
+        //basePage = new BasePage();
     }
 
     public boolean verifyDraftProjectBrieColumn(String columnName) {
