@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import pom.CrossFunctionalProjectPage;
 import pom.WorkRequestPage;
 
-
+@Deprecated
 public class WorkRequestTest extends BaseTest {
 
     @Test

@@ -4,8 +4,9 @@ import com.ecommerce.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pom.CrossFunctionalProjectPage;
-
+@Deprecated
 public class CrossFunctionalProjectTest extends BaseTest {
+
     @Test
     public void testDraftProjectBrie() {
         CrossFunctionalProjectPage projectPage = new CrossFunctionalProjectPage(page);

@@ -2,7 +2,7 @@ package pom;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-
+@Deprecated
 public class CrossFunctionalProjectPage extends LoginPage {
     private Page page;
     private BasePage basePage;
