@@ -13,23 +13,8 @@ public class BasePage {
         this.page = page;
     }
     public static final String LOCATOR_MOB_APP ="//button/h2[contains(text(), 'Mobile Application')]";
-    public void navigateToCrossFunctionalProject(){
-        page.click("loc");
-    }
-    public void navigateToWorkRequests(){
-        page.click("loc");
-    }
-    public boolean verifyColumn(Locator columnLocator, String columnName) {
-        columnLocator.waitFor();
-        return columnLocator.textContent().contains(columnName);
-    }
     public void navigateToMobPage() {
         page.click(LOCATOR_MOB_APP);
-    }
-
-    public boolean verifyPriorityTag(Locator priorityTagLocator, String priorityTag) {
-        priorityTagLocator.waitFor();
-        return priorityTagLocator.textContent().contains(priorityTag);
     }
 
     public boolean verifyTrackTag(Locator trackTagLocator, String trackTag) {
